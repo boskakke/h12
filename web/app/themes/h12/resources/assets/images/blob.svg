@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" viewBox="0 0 508 660" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>blob</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#262528" offset="0%"></stop>
+            <stop stop-color="#242522" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="blob" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M-1.08002496e-12,0 C268.223297,23.9337632 415.651023,37.1417921 442.283176,39.6240867 C482.231407,43.3475285 507.098662,69.8772475 507.098662,107.196413 C507.098662,110.782865 484.618677,258.028877 439.658707,548.934447 C432.594011,579.220347 404.494044,596.549594 376.678808,600.539339 C358.135317,603.199168 232.575715,622.76418 -1.08002496e-12,659.234375 L-1.08002496e-12,0 Z" id="Rectangle-Copy-20" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

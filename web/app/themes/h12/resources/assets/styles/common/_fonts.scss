@@ -1,0 +1,14 @@
+@mixin installFont($family, $src, $style: normal, $weight: normal) {
+	@font-face {
+		font-family: "#{$family}";
+		src:
+			url("#{$src}.woff2") format("woff2"),
+			url("#{$src}.woff") format("woff");
+		font-weight: #{$weight};
+		font-style: #{$style};
+		font-stretch: normal;
+	}
+}
+@include installFont('Helvetica Neue', '../fonts/HelveticaNeueLTPro-Ex', 'normal',400);
+@include installFont('Helvetica Neue', '../fonts/HelveticaNeueLTPro-BdEx', 'normal',700);
+@include installFont('Helvetica Neue', '../fonts/HelveticaNeueLTPro-HvEx', 'normal',900);

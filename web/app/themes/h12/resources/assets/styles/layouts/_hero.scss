@@ -1,0 +1,59 @@
+.hero {
+	&--standard {
+		margin: 6rem auto;
+		.hero__figure {
+			display: flex;
+			justify-content: center;
+		}
+	}
+	&--waves {
+		width: 100%;
+		height: 600px;
+		position: relative;
+		@include md-up {
+			height: 600px;
+		}
+		@include lg-up {
+			height: 700px;	
+		}
+		@include xl-up {
+			height: 800px;	
+		}
+		
+		.hero__figure {
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+		}
+		img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+		&__svgcontainer {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 100px;
+			@include md-up {
+				height: 150px;	
+			}
+			@include lg-up {
+				height: 200px;	
+			}
+			@include xl-up {
+				height: 285px;	
+			}
+		}
+	}
+	&__svg {
+		width: 100%;
+		height: 100%;
+		left: 50%;
+		position: absolute;
+		transform: translateX(-50%);
+	}
+}
+
+

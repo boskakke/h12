@@ -130,3 +130,22 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+
+ // allow svg files to be uploaded
+function cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+add_filter('upload_mimes', __NAMESPACE__ . '\\cc_mime_types');
+
+
+
+if( function_exists('acf_add_options_page') ) {
+    acf_add_options_page();
+}
+
+
+add_image_size( 'hero_lg', 1900, 1900 * .42, true ); 
+add_image_size( 'hero_md', 1200, 1200 * .42, true ); 
+add_image_size( 'hero_sm', 800, 800 * .42, true ); 
