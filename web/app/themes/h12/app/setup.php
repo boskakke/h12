@@ -146,6 +146,15 @@ if( function_exists('acf_add_options_page') ) {
 }
 
 
-add_image_size( 'hero_lg', 1900, 1900 * .42, true ); 
-add_image_size( 'hero_md', 1200, 1200 * .42, true ); 
-add_image_size( 'hero_sm', 800, 800 * .42, true ); 
+add_image_size( 'hero_lg', 1900, 1900 * .5625, true ); 
+add_image_size( 'hero_md', 1200, 1200 * .5625, true ); 
+add_image_size( 'hero_sm', 800, 800 * .5625, true ); 
+add_image_size( 'teaser_lg', 800, 800 * .6666, true ); 
+add_image_size( 'teaser_md', 700, 700 * .6666, true ); 
+add_image_size( 'teaser_sm', 600, 600 * .6666, true ); 
+
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', __NAMESPACE__ . '\\wpdocs_custom_excerpt_length', 999 );

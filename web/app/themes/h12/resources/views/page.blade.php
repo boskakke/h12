@@ -6,5 +6,6 @@
     	@include('partials.page-header')
     	@include('partials.content-page')
 	</div>
+	@include('partials.teasers')
   @endwhile
 @endsection

@@ -12,8 +12,8 @@
 // @import "~some-node-module";
 
 /** Import theme styles */
-@import "common/global";
 @import "common/mixins";
+@import "common/global";
 @import "common/reset";
 @import "common/images";
 @import "common/fonts";
@@ -25,6 +25,7 @@
 @import "layouts/hero";
 @import "layouts/blob";
 @import "layouts/sidebar";
+@import "layouts/teasers";
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";

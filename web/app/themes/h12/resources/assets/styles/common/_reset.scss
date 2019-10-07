@@ -55,7 +55,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 900;
 }
 
-p {
+p, 
+li {
 	margin-top: 0;
 	margin-bottom: 1rem;
 }
@@ -78,6 +79,7 @@ a {
 img {
 	max-width: 100%;
 	display: block;
+	height: auto;
 }
 
 /* Natural flow and rhythm in articles by default */

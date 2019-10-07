@@ -3,26 +3,28 @@
 	top: 50%;
 	left: 0;
 	transform: translateY(-50%);
-	padding: 5vh 5rem 4vh 2rem;
+	padding: 3rem 5rem 3rem 2rem;
 	z-index: 20;
 	color: #fff;
 	display: flex;
 	align-items: center;
 	width: calc(100% - 40px);
-	max-width: 350px;
+	max-width: 450px;
+	transition: all .2s ease;
 	@include xs-down {
 		width: 280px;
 	}
 	@include lg-up {
 		width: 400px;
 		max-width: unset;
+		padding: 5rem 5rem 5rem 2rem;
 	}
 
 	@include lg-up {
-		width: 400px;
+		width: 460px;
 	}
 	@include xl-up {
-		width: 500px;
+		width: 540px;
 	}
 	
 
@@ -58,10 +60,10 @@
 			font-size: $font-9;
 		}
 		@include lg-up {
-			font-size: $font-9;
+			font-size: $font-10;
 		}
 		@include xl-up {
-			font-size: $font-10;
+			font-size: $font-11;
 		}
 	}
 	&__logo {
