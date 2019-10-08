@@ -142,6 +142,19 @@
 	}
 }
 
+@keyframes slideIn {
+	from {
+		transform: translateX(40px);
+		opacity: 0;
+	}
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
+
+
 .main-menu {
 	display: flex;
 	list-style: none;
@@ -151,6 +164,21 @@
 	li {
 		display: flex;
 		justify-content: center;
+		transform: translateX(20px);
+		transform-origin: top center;
+		opacity: 0;
+		$delay: .15s;
+		@for $i from 1 through 10 {
+			&:nth-child(#{$i}) {
+				animation-delay: $delay !important;
+				$delay: $delay + .1s;
+			}
+		}
+
+		.menu-open & {
+			animation: slideIn .2s ease forwards;
+		}
+		
 	}
 	a {
 		display: inline-flex;
