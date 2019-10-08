@@ -21,7 +21,7 @@
 				@if (get_field( 'signup_open' ))
 					
 					<a href="{{ the_field( 'signup_link' ) }}" class="btn btn--primary btn--arrow" target="_blank">
-						{{ the_field( 'signup_cta_open' ) }} <svg class="btn__arrow" viewBox="0 0 25 15">
+						{{ the_field( 'signup_cta_open' ) }} <svg class="btn__arrow" viewBox="0 0 23.5 15">
 							<use xlink:href="#arrow"></use>
 							</svg>
 					</a>

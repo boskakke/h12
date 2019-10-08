@@ -21,7 +21,7 @@ $posts = get_field('teasers');
 					</h3>
 					{{ the_excerpt($p->ID) }}
 					<a href="{{ get_permalink($p->ID) }}" class="teaser-card__readmore">
-						<span>Læs mere</span> <svg class="teaser-card__arrow" viewBox="0 0 25 15">
+						<span>Læs mere</span> <svg class="teaser-card__arrow" viewBox="0 0 23.5 15">
 						<use xlink:href="#arrow"></use>
 						</svg>
 					</a>
