@@ -14,3 +14,13 @@
 	margin-right: auto;
 	@extend %section-margin;
 }
+
+h1 {
+	font-size: $font-6;
+	@include md-up {
+		font-size: $font-7;
+	}
+	@include lg-up {
+		font-size: $font-8;
+	}
+}

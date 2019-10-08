@@ -1,4 +1,5 @@
 <footer class="site-footer">
+	<div class="site-footer__birdie"><img src="@asset('images/fugl.svg')" alt="Pip Pip!"></div>
 	<div class="site-footer__top">
 	<div class="site-footer__waves">
 		<svg version="1.1" class="site-footer__svg" x="0px" y="0px" width="240px" height="24px" viewBox="0 0 240 24" enable-background="new 0 0 240 24" xml:space="preserve" preserveAspectRatio="none"> <path fill-opacity="0.33" d="M240,24V0c-51.797,0-69.883,13.18-94.707,15.59c-24.691,2.4-43.872-1.17-63.765-1.08
