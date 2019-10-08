@@ -24,8 +24,8 @@ body {
 }
 
 /* Remove default padding */
-ul[class],
-ol[class] {
+ul,
+ol {
 	padding: 0;
 	list-style: none;
 }

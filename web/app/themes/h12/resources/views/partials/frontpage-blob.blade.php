@@ -17,9 +17,18 @@
 				<p class="blob__after">{{ the_field( 'blob_after' )}}</strong>.</p>
 			@endif
 			@if (get_field( 'signup_open' ))
-				<a href="{{ the_field( 'signup_link' ) }}" class="btn btn--primary" target="_blank">
-					{{ the_field( 'signup_cta' ) }}
+				<a href="{{ the_field( 'signup_link' ) }}" class="btn btn--primary btn--arrow" target="_blank">
+					{{ the_field( 'signup_cta_open' ) }} <svg class="btn__arrow" viewBox="0 0 25 15">
+						<use xlink:href="#arrow"></use>
+						</svg>
 				</a>
+			@else 
+				<button class="btn btn--primary" disabled>
+					{{ the_field( 'signup_cta_closed' ) }}
+				</button>
+				@if(get_field( 'signup_small' ))
+					<small class="blob__small">{{ the_field( 'signup_small' ) }}</small>
+				@endif
 			@endif
 			@if (get_field('sponsor_logo', 'options'))
 				<figure class="blob__sponsor">

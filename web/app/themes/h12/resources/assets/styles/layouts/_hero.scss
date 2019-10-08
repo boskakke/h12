@@ -1,7 +1,7 @@
 .hero {
 	@extend %section-margin--sm;
 	&--standard {
-		margin: 6rem auto;
+		margin: 8rem auto 6rem;
 		.hero__figure {
 			display: flex;
 			justify-content: center;

@@ -66,6 +66,11 @@
 			font-size: $font-11;
 		}
 	}
+	&__small {
+		margin-top: .5rem;
+		font-size: $font-0;
+		color: #999;
+	}
 	&__logo {
 		position: absolute;
 		top: 0;

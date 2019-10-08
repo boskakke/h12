@@ -31,7 +31,7 @@
 	}
 	&__svg {
 		@extend %waves;
-		fill: $primary-300;
+		fill: #111;
 	}
 	&__content {
 		display: flex;
@@ -39,7 +39,7 @@
 		align-items: center;
 		position: relative;
 		z-index: 2;
-		background-color: $primary-300;
+		background-color: #111;
 		padding: 4rem 0;
 	}
 	&__logo {

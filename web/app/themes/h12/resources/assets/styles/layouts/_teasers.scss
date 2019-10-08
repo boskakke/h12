@@ -20,7 +20,7 @@
 	height: 100%;
 	position: relative;
 	&:hover {
-		.teaser-card__readmore:after {
+		.teaser-card__arrow {
 			transform: translateX(5px);
 		}
 	}
@@ -41,23 +41,18 @@
 		flex-direction: column;
 	}
 	&__readmore {
+		display: inline-flex;
 		font-weight: 600;
 		font-family: $font-header;
 		font-size: $font-2;
-		&:after {
-			display: inline-block;
-			height: 11px;
-			margin-left: 8px;
-			transition: transform .3s ease-in-out;
-			width: 17px;
-			background: url(../images/arrow.svg) no-repeat;
-			content: '';
-		}
 		&:hover {
 			text-decoration: none;
-			&:after {
-				transform: translateX(4px);
-			}
 		}
+	}
+	&__arrow {
+		fill: $link-color;
+		width: 17px;
+		margin-left: 5px;
+		transition: transform .2s ease;
 	}
 }

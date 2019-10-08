@@ -2,7 +2,7 @@
 $posts = get_field('teasers');
 @endphp
 @if( $posts )
-<div class="container--padding">
+<div class="container--padding container--section">
 	<div class="teasers">
 		@foreach( $posts as $p )
 		<a href="{{ get_permalink( $p->ID ) }}" title="{{ get_the_title($p->ID) }}"></a>
@@ -21,7 +21,9 @@ $posts = get_field('teasers');
 					</h3>
 					{{ the_excerpt($p->ID) }}
 					<a href="{{ get_permalink($p->ID) }}" class="teaser-card__readmore">
-						Læs mere
+						<span>Læs mere</span> <svg class="teaser-card__arrow" viewBox="0 0 25 15">
+						<use xlink:href="#arrow"></use>
+						</svg>
 					</a>
 				</div>
 			</article>

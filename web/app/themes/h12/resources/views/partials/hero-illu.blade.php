@@ -1,5 +1,11 @@
 @php
 	$design = get_field( 'hero_style' );
+	
+	if($design == 'hero--waves') {
+		$size = 'hero_lg';
+	} else {
+		$size = 'teaser_lg';
+	}
 @endphp
 @if (has_post_thumbnail())
 	<div class="hero {{$design }} {{ $sectionClass ?? '' }}">
@@ -7,7 +13,7 @@
 		@include('partials.frontpage-blob')
 		
 		<figure class="hero__figure {{ $figureClass ?? '' }}">
-		    {{the_post_thumbnail( 'hero_lg', array( 'class' => 'hero__image' ) )}}
+		    {{the_post_thumbnail( $size, array( 'class' => 'hero__image' ) )}}
 		    @if ($design == 'hero--waves')
 		    	
 		    <div class="hero--waves__waves">		    	

@@ -4,6 +4,9 @@
 	&--padding {
 		padding: 0 2rem;
 	}
+	&--section {
+		@extend %section-margin;
+	}
 }
 
 .entry__content {
@@ -22,5 +25,31 @@ h1 {
 	}
 	@include lg-up {
 		font-size: $font-8;
+	}
+	span {
+		font-weight: 400;
+	}
+}
+
+
+.section {
+	&--dark {
+		padding: 4rem 0;
+	}
+}
+
+.instagram {
+	&__header {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__logo {
+		width: 3rem;
+		margin-bottom: 1rem;
+	}
+	&__link {
+		color: #000;
 	}
 }
