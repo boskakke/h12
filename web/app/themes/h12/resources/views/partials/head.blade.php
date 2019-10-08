@@ -12,6 +12,7 @@
 	@if($image)
 		<link rel="icon" type="image/png" sizes="32x32" href="{{ $image['url'] }}">
 	@endif
+	<!-- Du burde trille en tur i skoven i stedet for at sidde her og nørde source-kode! 🙃 -->
 
   @php wp_head() @endphp
 </head>

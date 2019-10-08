@@ -70,6 +70,18 @@
 		color: #fff;
 		font-weight: 900;
 	}
+	&__sosume {
+		font-size: $font-0;
+		margin-top: 2rem;
+		a {
+			color: #444;
+			text-decoration: none;
+			transition: color .2s ease;
+			&:hover {
+				color: #555;
+			}
+		}
+	}
 
 }
 
