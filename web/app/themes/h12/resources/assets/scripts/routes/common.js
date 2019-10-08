@@ -11,6 +11,9 @@ export default {
 	const blob = $('.blob');
 	$(blob).addClass('blob--loaded');
 
+	
+
+
 	},
 	finalize() {
 	// JavaScript to be fired on all pages, after page specific JS is fired

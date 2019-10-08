@@ -692,6 +692,14 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
+basicscroll@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/basicscroll/-/basicscroll-3.0.2.tgz#14af53ee743cb7de18d086fad9d785fc301e64bc"
+  integrity sha512-xMSBINspbWYZ3tMCqjSxTWDKWPgvje2f2Ob+bGJ2qTOfinZzIsLbWOdwT7b1q0irtqp2eqzdqGMuqAFceM0muw==
+  dependencies:
+    eases "^1.0.8"
+    parse-unit "^1.0.1"
+
 batch@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
@@ -2703,6 +2711,11 @@ each-async@^1.0.0, each-async@^1.1.1:
   dependencies:
     onetime "^1.0.0"
     set-immediate-shim "^1.0.0"
+
+eases@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/eases/-/eases-1.0.8.tgz#f1f5069a6b6ed2ea510f9c6110398d63efe9aee6"
+  integrity sha1-8fUGmmtu0upRD5xhEDmNY+/pruY=
 
 easy-extender@^2.3.4:
   version "2.3.4"
@@ -6811,6 +6824,11 @@ parse-node-version@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parse-node-version/-/parse-node-version-1.0.1.tgz#e2b5dbede00e7fa9bc363607f53327e8b073189b"
   integrity sha512-3YHlOa/JgH6Mnpr05jP9eDG254US9ek25LyIxZlDItp2iJtwyaXQb57lBYLdT3MowkUFYEV2XXNAYIPlESvJlA==
+
+parse-unit@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/parse-unit/-/parse-unit-1.0.1.tgz#7e1bb6d5bef3874c28e392526a2541170291eecf"
+  integrity sha1-fhu21b7zh0wo45JSaiVBFwKR7s8=
 
 parse5@^1.4.2:
   version "1.5.1"
