@@ -73,6 +73,7 @@ h1 {
 	&__item {
 		padding: 2rem;
 		flex: 0 0 50%;
+		max-width: 50%;
 		height: 15vh;
 		display: flex;
 		flex-wrap: wrap;
@@ -85,6 +86,7 @@ h1 {
 		}
 		@include md-up {
 			flex: 0 0 20%;
+			max-width: 20%;
 		}
 		@media (max-aspect-ratio: 1/1) {
 			li {
@@ -99,6 +101,7 @@ h1 {
 		}
 		&:first-child {
 			flex: 1 0 100%;
+			max-width: 100%;
 		}
 	}
 
