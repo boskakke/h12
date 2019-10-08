@@ -35,8 +35,8 @@ h1 {
 .section {
 	&--instagram {
 		padding: 4rem 0;
-		background-color: #222;
-		background-image: linear-gradient(#333, rgba($primary-200, .5));
+		
+		
 	}
 	&--gray {
 		padding: 4rem 0;
@@ -46,9 +46,6 @@ h1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		&--fff {
-			color: #fff;
-		}
 	}
 	&__subheader {
 		text-align: center;
@@ -59,10 +56,10 @@ h1 {
 	&__logo {
 		width: 3rem;
 		margin-bottom: 1rem;
-		fill: #fff;
+		fill: #000;
 	}
 	&__link {
-		color: #fff;
+		color: #000;
 	}
 }
 

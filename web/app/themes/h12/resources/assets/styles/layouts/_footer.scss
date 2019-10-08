@@ -9,7 +9,7 @@
 	flex-direction: column;
 	position: relative;
 	padding-top: 10rem;
-	background-color: #222;
+	
 	/* stylelint-disable */
 	
 	background-image: 
@@ -23,9 +23,9 @@
 		background-image: 
 			radial-gradient( ellipse at center,
 			rgba($primary-500, .4) 10%, 
-			rgba($primary-400, .4) 15%, 
-			rgba($primary-300, .4) 30%, 
-			rgba($primary-200, .5) 45%);
+			
+			rgba($primary-500, .1) 45%,
+			transparent 60%);
 	}
 	/* stylelint-enable */
 	&__birdie {

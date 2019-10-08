@@ -6,13 +6,16 @@
 	} else {
 		$size = 'teaser_lg';
 	}
+	if( !is_front_page()) {
+		$pageHeroClass = 'hero--waves-page';
+	}
 @endphp
 @if (has_post_thumbnail())
-	<div class="hero {{$design }} {{ $sectionClass ?? '' }}">
+	<div class="hero {{$design }} {{ $sectionClass ?? '' }} {{ $pageHeroClass ?? '' }}">
 		
 		@include('partials.frontpage-blob')
 		
-		<figure class="hero__figure {{ $figureClass ?? '' }}">
+		<figure class="hero__figure {{ $figureClass ?? '' }} ">
 		    {{the_post_thumbnail( $size, array( 'class' => 'hero__image' ) )}}
 		    @if ($design == 'hero--waves')
 		    	

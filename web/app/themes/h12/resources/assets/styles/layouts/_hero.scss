@@ -21,6 +21,11 @@
 		@include xl-up {
 			height: 800px;	
 		}
+		&-page {
+			@include md-down {
+				max-height: 50vh;
+			}
+		}
 		
 		.hero__figure {
 			overflow: hidden;
@@ -49,6 +54,7 @@
 			}
 		}
 	}
+
 	&__svg {
 		@extend %waves;
 		fill: #fff;
