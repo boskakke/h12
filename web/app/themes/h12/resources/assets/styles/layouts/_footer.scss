@@ -16,14 +16,14 @@
 		radial-gradient( ellipse at bottom,
 		rgba($primary-500, .4) 30%, 
 		rgba($primary-600, .3) 45%, 
-		rgba($primary-700, .2) 60%, 
-		rgba($primary-800, .2) 75%);
+		rgba($primary-700, .2) 50%, 
+		rgba($primary-800, .1) 55%,
+		transparent 70%);
 
 	@include md-up {
 		background-image: 
 			radial-gradient( ellipse at center,
-			rgba($primary-500, .4) 10%, 
-			
+			rgba($primary-500, .4) 10%,
 			rgba($primary-500, .1) 45%,
 			transparent 60%);
 	}
