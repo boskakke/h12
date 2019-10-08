@@ -2,9 +2,9 @@
 @php
 	$instagram = get_field( 'instagram', 'options' )
 @endphp
-<section class="section--dark">
+<section class="section--instagram">
 	<div class="container container--padding">
-		<h2 class="instagram__header">
+		<h2 class="section__header section__header--fff">
 			<svg class="instagram__logo" viewBox="0 0 64 64">
 				<use xlink:href="#instagram"></use>
 			</svg>

@@ -15,6 +15,7 @@
         
       </div>
     </div>
+    @include('partials.partners')
     @include('partials.instagram')
     @php do_action('get_footer') @endphp
     @include('partials.footer')
