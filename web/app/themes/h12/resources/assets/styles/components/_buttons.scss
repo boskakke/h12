@@ -10,10 +10,14 @@
 	font-family: $font-header;
 	transition: all .2s ease;
 	cursor: pointer;
-	font-size: $font-3;
 	border-radius: 40px;
-	padding: 18px 40px;
+	padding: 14px 25px;
+	font-size: $font-2;
 	box-shadow: 0 2px 0 $primary-300;
+	@include md-up {
+		padding: 18px 40px;
+		font-size: $font-3;
+	}
 	&:hover {
 		text-decoration: none;
 		.btn__arrow {
@@ -26,9 +30,10 @@
 	
 	&.disabled,
 	&:disabled {
-		opacity: .65;
+		opacity: .55;
 		box-shadow: none;
 		cursor: unset;
+		background-color: #000;
 	}
 	&__arrow {
 		@extend %arrow;
