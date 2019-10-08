@@ -21,7 +21,7 @@
 	}
 
 	@include lg-up {
-		width: 460px;
+		width: 540px;
 	}
 	@include xl-up {
 		width: 540px;
@@ -47,6 +47,13 @@
 		margin: 2rem 0;
 		flex-direction: column;
 		align-items: flex-start;
+	}
+	&__center {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		align-items: center;
+		flex-direction: column;
 	}
 	&__header {
 		font-size: $font-8;
@@ -79,8 +86,11 @@
 	}
 	&__sponsor {
 		margin-top: 2rem;
-		width: 120px;
-		opacity: .3;
-		
+		width: 140px;
+		opacity: .9;
+	}
+	&__after {
+		margin-bottom: 2rem;
 	}
 }
+

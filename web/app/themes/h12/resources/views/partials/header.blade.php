@@ -27,8 +27,9 @@
       </div>
       
       <nav class="menu-overlay">
-
+        <a class="header__logo" href="{{ home_url('/') }}" title="{{ get_bloginfo('name', 'display') }}">
         <img src="@asset('images/h12.svg')" alt="{{ get_bloginfo('name', 'display') }}" class="menu-overlay__logo">
+        </a>
         @if (has_nav_menu('primary_navigation'))
           {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'main-menu' . $class ]) !!}
         @endif

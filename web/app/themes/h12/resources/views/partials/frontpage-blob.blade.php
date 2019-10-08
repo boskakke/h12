@@ -16,25 +16,36 @@
 			@if(get_field( 'blob_after' ))
 				<p class="blob__after">{{ the_field( 'blob_after' )}}</strong>.</p>
 			@endif
-			@if (get_field( 'signup_open' ))
-				<a href="{{ the_field( 'signup_link' ) }}" class="btn btn--primary btn--arrow" target="_blank">
-					{{ the_field( 'signup_cta_open' ) }} <svg class="btn__arrow" viewBox="0 0 25 15">
-						<use xlink:href="#arrow"></use>
-						</svg>
-				</a>
-			@else 
-				<button class="btn btn--primary" disabled>
-					{{ the_field( 'signup_cta_closed' ) }}
-				</button>
-				@if(get_field( 'signup_small' ))
-					<small class="blob__small">{{ the_field( 'signup_small' ) }}</small>
+			
+			
+				@if (get_field( 'signup_open' ))
+					
+					<a href="{{ the_field( 'signup_link' ) }}" class="btn btn--primary btn--arrow" target="_blank">
+						{{ the_field( 'signup_cta_open' ) }} <svg class="btn__arrow" viewBox="0 0 25 15">
+							<use xlink:href="#arrow"></use>
+							</svg>
+					</a>
+				
+				@else 
+
+					<button class="btn btn--primary" disabled>
+						{{ the_field( 'signup_cta_closed' ) }}
+					</button>
+					@if(get_field( 'signup_small' ))
+						<small class="blob__small">{{ the_field( 'signup_small' ) }}</small>
+					@endif
+
 				@endif
-			@endif
+			
+			
 			@if (get_field('sponsor_logo', 'options'))
+			<div class="blob__center">
 				<figure class="blob__sponsor">
 					<img src="{{the_field('sponsor_logo', 'options')}}" alt="">
 				</figure>
+			</div>
 			@endif
+			
 		</div>
 		<div class="blob__svg"></div>
 	</div>

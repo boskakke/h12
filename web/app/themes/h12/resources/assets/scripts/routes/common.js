@@ -5,9 +5,12 @@ export default {
 	$('.js-toggle-nav').click( function (e) {
 		const body = $('body');
 		e.preventDefault();
-		$('.hamburger').toggleClass('open');
+		$(this).toggleClass('open');
 		$(body).toggleClass('menu-open');
 	})
+	const blob = $('.blob');
+	$(blob).addClass('blob--loaded');
+
 	},
 	finalize() {
 	// JavaScript to be fired on all pages, after page specific JS is fired
