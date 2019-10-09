@@ -17,7 +17,7 @@
 			$name = get_sub_field('name');
 			$description = get_sub_field('description');
 			$link = get_sub_field('link');
-			$size = 'full';
+			$size = 'partner';
 		@endphp
 		<div class="partners__item">
 			@if ($link)
