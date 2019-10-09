@@ -24,7 +24,7 @@
 				<a href="{{ $link}}" title="{{ $name ?? '' }}" target="_blank">
 			@endif
 				 @php
-		echo wp_get_attachment_image( $logo, $size, false, array( "class" => "partners__logo" ));
+		echo wp_get_attachment_image( $logo, $size, false, array( "class" => "partners__logo", "loading" => "lazy" ));
 				 @endphp
 			@if ($link)
 			</a>

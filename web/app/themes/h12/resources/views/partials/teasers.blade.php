@@ -12,7 +12,7 @@ $posts = get_field('teasers');
 
 				@if (get_the_post_thumbnail($p->ID ))
 				<figure class="teaser-card__figure">
-					{!! get_the_post_thumbnail( $p->ID, 'teaser_lg', array( 'class' => 'teaser-card__image' ) ) !!}
+					{!! get_the_post_thumbnail( $p->ID, 'teaser_lg', array( 'class' => 'teaser-card__image', 'loading' => 'lazy', 'alt' => get_the_title($p->ID)) ) !!}
 				</figure>
 				@endif
 				<div class="teaser-card__body">
