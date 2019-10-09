@@ -150,8 +150,8 @@ add_image_size( 'hero_lg', 1900, 1900 * .5625, true );
 add_image_size( 'hero_md', 1200, 1200 * .5625, true ); 
 add_image_size( 'hero_sm', 800, 800 * .5625, true ); 
 add_image_size( 'teaser_lg', 800, 800 * .6666, true ); 
-add_image_size( 'teaser_md', 700, 700 * .6666, true ); 
-add_image_size( 'teaser_sm', 600, 600 * .6666, true );
+add_image_size( 'teaser_md', 750, 750 * .6666, true ); 
+add_image_size( 'teaser_sm', 640, 640 * .6666, true );
 add_image_size( 'partner', 400, 400 * .6666, false );
 
 
