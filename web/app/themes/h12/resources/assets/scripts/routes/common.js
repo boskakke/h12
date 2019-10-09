@@ -1,9 +1,8 @@
 export default {
 	init() {
 	// JavaScript to be fired on all pages
-
-	$('.js-toggle-nav').click( function (e) {
-		const body = $('body');
+	const body = $('body');
+	$('.js-toggle-nav').click( function (e) {	
 		e.preventDefault();
 		$(this).toggleClass('open');
 		$(body).toggleClass('menu-open');
@@ -11,7 +10,22 @@ export default {
 	const blob = $('.blob');
 	$(blob).addClass('blob--loaded');
 
-	
+	$(body).addClass('loaded');
+
+	const waves = document.querySelector('.site-footer__waves');
+	const bird = document.querySelector('.site-footer__birdie');
+
+	let observer = new IntersectionObserver((entries) => { 
+		entries.forEach(entry => {
+			if(entry.intersectionRatio!=1 ){
+				bird.classList.remove('jubii')
+			}
+			else {
+				bird.classList.add('jubii')
+			}
+		});
+	}, {threshold: 1});
+	observer.observe(waves);
 
 
 	},
@@ -19,3 +33,5 @@ export default {
 	// JavaScript to be fired on all pages, after page specific JS is fired
 	},
 };
+
+
