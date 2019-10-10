@@ -2,7 +2,7 @@
 	$design = get_field( 'hero_style' );
 	
 	if($design == 'hero--waves') {
-		$size = 'hero_lg';
+		$size = 'hero_xl';
 	} else {
 		$size = 'teaser_lg';
 	}
