@@ -1,7 +1,8 @@
 body#tinymce {
 	margin: 12px !important;
 }
-html, body.mce-content-body {
+html, body.mce-content-body,
+#content_ifr {
 	/* Fixes Post Editor */
 	height: inherit !important;
 }
