@@ -1,10 +1,18 @@
 .hero {
 	@extend %section-margin--sm;
 	&--standard {
-		margin: 8rem auto 6rem;
-		.hero__figure {
-			display: block;
-			padding: 0 1rem;
+		margin: 5rem auto 4rem;
+		@include md-up {
+			margin: 8rem auto 6rem;
+		}
+		.hero {
+			&__figure {
+				display: block;
+				padding: 0 1rem;
+			}
+			&__image {
+				margin: 0 auto;
+			}
 		}
 	}
 	&--waves {
