@@ -39,6 +39,9 @@
 		@extend %arrow;
 		fill: #fff;
 	}
+	&:not(:disabled) {
+		animation: glow 2s ease infinite;
+	}
 }
 
 .btn--primary {
@@ -52,3 +55,11 @@
 }
 
 	
+@keyframes glow {
+	0%, 100% {
+		box-shadow: 0 0 10px rgba($primary-500, .4);
+	}
+	50% {
+		box-shadow: 0 0 25px rgba($primary-500, .7);
+	}
+}

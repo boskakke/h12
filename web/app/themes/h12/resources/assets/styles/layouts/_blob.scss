@@ -9,20 +9,20 @@
 	display: flex;
 	align-items: center;
 	width: calc(100% - 40px);
-	max-width: 450px;
+	max-width: 335px;
 	transition: all .2s ease;
 	@include xs-down {
 		width: 280px;
 	}
-	@include lg-up {
-		max-width: unset;
-		width: 480px;
-		padding: 3rem 5rem 5rem 2rem;
+	@include md-up {
+		max-width: 400px;
 	}
-
-	
+	@include lg-up {
+		max-width: 440px;
+		padding-right: 4rem;
+	}
 	@include xl-up {
-		width: 540px;
+		max-width: 480px;
 	}
 	
 
@@ -65,13 +65,13 @@
 			font-size: $font-7;
 		}
 		@include md-up {
-			font-size: $font-8;
-		}
-		@include lg-up {
 			font-size: $font-9;
 		}
-		@include xl-up {
+		@include lg-up {
 			font-size: $font-10;
+		}
+		@include xl-up {
+			font-size: $font-11;
 		}
 	}
 	&__small {
@@ -84,6 +84,9 @@
 		top: 0;
 		transform: translateY(-30%);
 		z-index: 2;
+		@include xs-down {
+			width: 100px;
+		}
 	}
 	&__sponsor {
 		margin-top: 2rem;
