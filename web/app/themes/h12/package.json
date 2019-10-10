@@ -77,5 +77,8 @@
   },
   "dependencies": {
     "jquery": "^3.3.1"
-  }
+  },
+    "resolutions": { 
+      "**/**/lodash": "^4.17.0"
+    }
 }
