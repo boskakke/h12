@@ -24,7 +24,15 @@
 				<a href="{{ $link}}" title="{{ $name ?? '' }}" rel="noopener" target="_blank">
 			@endif
 				 @php
-		echo wp_get_attachment_image( $logo, $size, false, array( "class" => "partners__logo", "loading" => "lazy" ));
+				 $img_attributes = wp_get_attachment_image_src( $logo, $size, false);
+					if($img_attributes[1] !== 1) {
+						$args = ["class" => "partners__logo", "alt" => $name, "loading" => "lazy"];
+					} else {
+						$args = [
+							"class" => "partners__logo", "alt" => $name
+						];
+					}
+				 echo wp_get_attachment_image( $logo, $size, false, $args);
 				 @endphp
 			@if ($link)
 			</a>
