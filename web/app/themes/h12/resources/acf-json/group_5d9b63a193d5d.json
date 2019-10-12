@@ -27,6 +27,25 @@
             "mime_types": ""
         },
         {
+            "key": "field_5da201467bb96",
+            "label": "Meta description",
+            "name": "meta_description",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Danmarks hyggeligste 12-timers mtb-løb som afholdes hvert år i maj i Nødebo.",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5d9b9d715aa04",
             "label": "Sponsor logo",
             "name": "sponsor_logo",
@@ -122,5 +141,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1570565801
+    "modified": 1570898299
 }

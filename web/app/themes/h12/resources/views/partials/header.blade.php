@@ -39,5 +39,5 @@
     
     
   </div>
-  <a href="#" class="menu-backdrop js-toggle-nav"></a>
+  <a href="#" class="menu-backdrop js-toggle-nav" aria-label="Vis menuen"></a>
 </header>

@@ -12,8 +12,11 @@
 	@if($image)
 		<link rel="icon" type="image/png" sizes="32x32" href="{{ $image['url'] }}">
 	@endif
+	@if (get_field( 'meta_description', 'options' ) )
+	<meta name="description" content="{{ the_field('meta_description', 'options') }}" />
+	@endif
 	<!-- Du burde trille en tur i skoven i stedet for at sidde her og nørde source-kode! 🙃 -->
-	
+		
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149850936-1"></script>
 	<script>
@@ -23,6 +26,6 @@
 
 	  gtag('config', 'UA-149850936-1');
 	</script>
-	
+
   @php wp_head() @endphp
 </head>

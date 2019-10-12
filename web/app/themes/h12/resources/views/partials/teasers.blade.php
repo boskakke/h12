@@ -5,10 +5,10 @@ $posts = get_field('teasers');
 <div class="container--padding container--section">
 	<div class="teasers">
 		@foreach( $posts as $p )
-		<a href="{{ get_permalink( $p->ID ) }}" title="{{ get_the_title($p->ID) }}"></a>
+		
 		<div class="teasers__item">
 			<article class="teaser-card fadeUp">
-				<a href="{{ get_permalink( $p->ID) }}" class="teaser-card__overlaylink"></a>
+				<a href="{{ get_permalink( $p->ID) }}" title="{{ get_the_title($p->ID) }}" aria-label="{{ get_the_title($p->ID) }}" class="teaser-card__overlaylink"></a>
 
 				@if (get_the_post_thumbnail($p->ID ))
 				<figure class="teaser-card__figure">
