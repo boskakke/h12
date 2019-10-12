@@ -14,7 +14,7 @@
 				<h1 class="blob__header">{{ the_field( 'blob_title' )}}</h1>
 			@endif
 			@if(get_field( 'blob_after' ))
-				<p class="blob__after">{{ the_field( 'blob_after' )}}</strong>.</p>
+				<p class="blob__after">{{ the_field( 'blob_after' )}}</strong></p>
 			@endif
 			
 			
