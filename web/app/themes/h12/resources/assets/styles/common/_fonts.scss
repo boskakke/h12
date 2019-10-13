@@ -7,6 +7,7 @@
 		font-weight: #{$weight};
 		font-style: #{$style};
 		font-stretch: normal;
+		font-display: fallback;
 	}
 }
 @include installFont('Helvetica Neue', '../fonts/HelveticaNeueLTPro-Ex', 'normal',400);
