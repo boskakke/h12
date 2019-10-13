@@ -166,6 +166,7 @@ add_image_size( 'teaser_lg', 800, 800 * .6666, true );
 add_image_size( 'teaser_md', 750, 750 * .6666, true ); 
 add_image_size( 'teaser_sm', 640, 640 * .6666, true );
 add_image_size( 'teaser_xs', 450, 450 * .6666, true );
+add_image_size( 'teaser_xxs', 375, 375 * .6666, true );
 add_image_size( 'partner', 400, 400 * .6666, false );
 
 
