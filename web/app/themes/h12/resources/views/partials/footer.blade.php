@@ -25,8 +25,8 @@
 			<div class="site-footer__payoff">
 				Gid det snart var maj!
 			</div>
-			<div class="site-footer__sosume">
-				<a href="http://marginmedia.dk">Produceret af Margin Media</a>
+			<div class="site-footer__sosume">H12 arrangeres af <a href="http://teamhustler.dk" target="_blank" rel="noopener" title="H12 arrangeres af Team Hustler">Team Hustler</a><br>
+				<a href="http://marginmedia.dk" rel="noopener" title="Produceret af Margin Media">Produceret af Margin Media</a>
 			</div>
 		</div>
 	</footer>
