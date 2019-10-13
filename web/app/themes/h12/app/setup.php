@@ -158,7 +158,8 @@ if( function_exists('acf_add_options_page') ) {
 
 add_image_size( 'hero_xl', 1900, 1900 * .5625, true ); 
 add_image_size( 'hero_lg', 1536, 1536 * .5625, true ); 
-add_image_size( 'hero_md', 1200, 1200 * .5625, true ); 
+add_image_size( 'hero_md', 1125, 1125 * .5625, true ); 
+add_image_size( 'hero_sm2', 1000, 1000 * .5625, true ); 
 add_image_size( 'hero_sm', 750, 750 * .5625, true ); 
 add_image_size( 'hero_xs', 640, 640 * .5625, true ); 
 add_image_size( 'teaser_lg', 800, 800 * .6666, true ); 
