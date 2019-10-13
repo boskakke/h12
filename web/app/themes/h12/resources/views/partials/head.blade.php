@@ -17,15 +17,6 @@
 	@endif
 	<!-- Du burde trille en tur i skoven i stedet for at sidde her og nørde source-kode! 🙃 -->
 		
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149850936-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-149850936-1');
-	</script>
 
   @php wp_head() @endphp
 </head>
