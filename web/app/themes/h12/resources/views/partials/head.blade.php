@@ -15,6 +15,7 @@
 	@if (get_field( 'meta_description', 'options' ) )
 	<meta name="description" content="{{ the_field('meta_description', 'options') }}" />
 	@endif
+	<meta name="google-site-verification" content="G-irVEPmbZa-IjFMP1ZO4PrbFWAUDUonuRN4Jts9Kts" />
 	<!-- Du burde trille en tur i skoven i stedet for at sidde her og nørde source-kode! 🙃 -->
 		
 
