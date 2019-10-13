@@ -16,7 +16,11 @@
 		@include('partials.frontpage-blob')
 		
 		<figure class="hero__figure {{ $figureClass ?? '' }} ">
-		    {{the_post_thumbnail( $size, array( 'class' => 'hero__image' ) )}}
+		    {{-- {{the_post_thumbnail( $size, array( 'class' => 'hero__image' ) )}}  --}}
+		    @php
+		    	$image = get_the_post_thumbnail(null, 'hero_xl', array('class' => 'hero__image'));
+		    	echo $image;
+		    @endphp
 		    @if ($design == 'hero--waves')
 		    	
 		    <div class="hero--waves__waves">		    	
