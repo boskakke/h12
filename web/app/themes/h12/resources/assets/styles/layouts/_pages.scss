@@ -24,6 +24,16 @@
 }
 
 
+.wp-block-image {
+	margin: 2rem 0;
+	img {
+		margin-bottom: .5rem;
+	}
+	figcaption {
+		color: #999;
+		font-size: $font-2;
+	}
+}
 h1,
 .h1 {
 	font-size: $font-6;
