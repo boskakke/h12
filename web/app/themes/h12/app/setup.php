@@ -16,11 +16,11 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
     if (!is_admin()) {
         // comment out the next two lines to load the local copy of jQuery
-        wp_deregister_script('jquery');
+        // wp_deregister_script('jquery');
         // remove Guthernberg styling
         wp_dequeue_style( 'wp-block-library' );
-        wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', false, '3.4.1', true);
-        wp_enqueue_script('jquery');
+        // wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', false, '3.4.1', true);
+        // wp_enqueue_script('jquery');
     }
 
 }, 100);
