@@ -18,10 +18,10 @@ export default {
 	let observer = new IntersectionObserver((entries) => { 
 		entries.forEach(entry => {
 			if(entry.intersectionRatio!=1 ){
-				bird.classList.remove('jubii')
+				bird.classList.remove('PIIPPIP')
 			}
 			else {
-				bird.classList.add('jubii')
+				bird.classList.add('PIIPPIP')
 			}
 		});
 	}, {threshold: 1});

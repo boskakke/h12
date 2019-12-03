@@ -5,6 +5,6 @@
 		$tag = 'h1';
 	}
 @endphp
-<div class="page-header h1">
+<div class="page-header h1 {{ $class ?? '' }}">
   <{!! $tag !!} class="h1">{!! App::title() !!}</{!! $tag !!}>
 </div>

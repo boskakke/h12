@@ -34,6 +34,30 @@
 		font-size: $font-2;
 	}
 }
+.subpage-header {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	color: #fff;
+	z-index: 2;
+	h1 {
+		font-size: $font-8;
+		text-shadow: 0 3px 10px rgba(black,.4), 0 0 30px rgba(black,.5);
+		text-align: center;
+		@include md-up {
+			font-size: $font-9;
+		}
+		@include lg-up {
+			font-size: $font-10;
+		}
+		@include xl-up {
+			font-size: $font-11;
+		}
+	}
+}
+
+
 h1,
 .h1 {
 	font-size: $font-6;
@@ -43,6 +67,7 @@ h1,
 	@include lg-up {
 		font-size: $font-8;
 	}
+
 	span {
 		font-weight: 400;
 	}
@@ -127,3 +152,4 @@ h1,
 	}
 
 }
+

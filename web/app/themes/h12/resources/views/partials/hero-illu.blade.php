@@ -14,7 +14,10 @@
 	<div class="hero {{$design }} {{ $sectionClass ?? '' }} {{ $pageHeroClass ?? '' }}">
 		
 		@include('partials.frontpage-blob')
-		
+
+		@if( !is_front_page() && $design == 'hero--waves' )
+			@include('partials.page-header', ['class' => 'subpage-header'])
+		@endif
 		<figure class="hero__figure {{ $figureClass ?? '' }} ">
 		    {{-- {{the_post_thumbnail( $size, array( 'class' => 'hero__image' ) )}}  --}}
 		    @php
