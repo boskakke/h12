@@ -110,7 +110,13 @@ h1,
 			max-width: 100%;
 		}
 	}
+	a {
+		height: 100%;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
 
+	}
 	&__logo {
 		max-height: 100%;
 		width: auto;
