@@ -1,0 +1,1052 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"trans",
+				"translateX()\ttransform"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"tr",
+				"translateX()\ttransform"
+			],
+			[
+				"transl",
+				"translateX()\ttransform"
+			],
+			[
+				"tran",
+				"translateX()\ttransform"
+			],
+			[
+				"timeline",
+				"timelineDesign"
+			],
+			[
+				"mh",
+				"min-height\tproperty"
+			],
+			[
+				"op",
+				"object-position\tproperty"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"transi",
+				"transition\tproperty"
+			],
+			[
+				"flex-",
+				"flex-wrap\tproperty"
+			],
+			[
+				"grid-are",
+				"grid-area\tproperty"
+			],
+			[
+				"overfl",
+				"overflow-y\tproperty"
+			],
+			[
+				"$ca",
+				"$carousel\tlocal var"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"querey",
+				"querySelector\tmethod"
+			],
+			[
+				"pos",
+				"object-position\tproperty"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"trasnform-",
+				"transform-origin\tproperty"
+			],
+			[
+				"box-s",
+				"box-shadow\tproperty"
+			],
+			[
+				"translate",
+				"translate3d()\ttransform"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"dump",
+				"var_dump"
+			],
+			[
+				"trna",
+				"translateX()\ttransform"
+			],
+			[
+				"obje",
+				"object-position\tproperty"
+			],
+			[
+				"a",
+				"auto\theight"
+			],
+			[
+				"rotate",
+				"rotateX()\ttransform"
+			],
+			[
+				"perspe",
+				"perspective-origin\tproperty"
+			],
+			[
+				"que",
+				"querySelectorAll\tmethod"
+			],
+			[
+				"tra",
+				"translateX()\ttransform"
+			],
+			[
+				"qu",
+				"querySelector\tmethod"
+			],
+			[
+				"transla",
+				"translateX()\ttransform"
+			],
+			[
+				"no",
+				"nowrap\twhite-space"
+			],
+			[
+				"for",
+				"forEach\twarning"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"fle",
+				"flex-start\tjustify-content"
+			],
+			[
+				"s",
+				"scaleX()\ttransform"
+			],
+			[
+				"quere",
+				"querySelectorAll\tmethod"
+			],
+			[
+				"app",
+				"appendChild\tmethod"
+			],
+			[
+				"tex",
+				"textContent\tproperty"
+			],
+			[
+				"inner",
+				"innerWidth\tproperty"
+			],
+			[
+				"class",
+				"classList\twarning"
+			],
+			[
+				"add",
+				"addEventListener\tmethod"
+			],
+			[
+				"ob",
+				"object-fit\tproperty"
+			],
+			[
+				"alitn",
+				"align-items\tproperty"
+			],
+			[
+				"list-st",
+				"list-style-position\tproperty"
+			],
+			[
+				"marin",
+				"margin-bottom"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"col",
+				"column\tflex-direction"
+			],
+			[
+				"transf",
+				"transform\tproperty"
+			],
+			[
+				"flex",
+				"flex-start\tjustify-content"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"fle-",
+				"flex-direction\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"spe",
+				"space-between\tjustify-content"
+			],
+			[
+				"mrgin",
+				"margin-left\tproperty"
+			],
+			[
+				"over-",
+				"overflow-y\tproperty"
+			],
+			[
+				"image",
+				"image_attributes"
+			],
+			[
+				"align-t",
+				"align-items\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"trnas",
+				"translateY()\ttransform"
+			],
+			[
+				"bo",
+				"box-sizing\tproperty"
+			],
+			[
+				"bu",
+				"buttonApple"
+			],
+			[
+				"backg",
+				"background-size\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"tras",
+				"translateX()\ttransform"
+			],
+			[
+				"sign",
+				"singupOffsetTop\tconst"
+			],
+			[
+				"rand",
+				"randomNumber"
+			],
+			[
+				"random",
+				"randomNumber"
+			],
+			[
+				"c",
+				"cover\tobject-fit"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"alin",
+				"align-items\tproperty"
+			],
+			[
+				"JSON",
+				"JSONstring\tconst"
+			],
+			[
+				"desc",
+				"description\twarning"
+			],
+			[
+				"console",
+				"console\twarning"
+			],
+			[
+				"bl",
+				"blksize"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"aling-",
+				"align-items\tproperty"
+			],
+			[
+				"text-de",
+				"text-decoration\tproperty"
+			],
+			[
+				"fl",
+				"flex-start\talign-self"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"trasn",
+				"transform-origin\tproperty"
+			],
+			[
+				"f",
+				"fixed\tposition"
+			],
+			[
+				"transiti",
+				"transition-delay\tproperty"
+			],
+			[
+				"text-d",
+				"text-decoration\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-row-",
+				"grid-row-gap\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"teaser",
+				"teaserRatio"
+			],
+			[
+				"article",
+				"article-header-xl"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"rota",
+				"rotateY()\ttransform"
+			],
+			[
+				"transform-",
+				"transform-origin\tproperty"
+			],
+			[
+				"scale",
+				"scaleX()\ttransform"
+			],
+			[
+				"fle-x",
+				"flex-start\talign-items"
+			],
+			[
+				"trnasi",
+				"transform-origin\tproperty"
+			],
+			[
+				"vide",
+				"video_url_mobile"
+			],
+			[
+				"overv",
+				"overview__link"
+			],
+			[
+				"grid",
+				"grid-auto-flow\tproperty"
+			],
+			[
+				"pri",
+				"primary-dark"
+			],
+			[
+				"color-",
+				"color-dark"
+			],
+			[
+				"x",
+				"xattr_get"
+			],
+			[
+				"costume",
+				"costume-business"
+			],
+			[
+				"align-",
+				"align-items\tproperty"
+			],
+			[
+				"acti",
+				"activeTab"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"aboutusT",
+				"aboutusTeaser_2"
+			],
+			[
+				"grid-area",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"transle",
+				"translateY()\ttransform"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"progr",
+				"progressbar"
+			],
+			[
+				"transfr",
+				"transform\tproperty"
+			],
+			[
+				"overflo",
+				"overflow-y\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"transform",
+				"transform-origin\tproperty"
+			],
+			[
+				"transfo",
+				"transform\tproperty"
+			],
+			[
+				"space-",
+				"space-between\tjustify-content"
+			],
+			[
+				"argin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"border-",
+				"border-top\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rien",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein\t",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"advanced",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"IND",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"con",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indentr",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pl",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"plug",
+				"Gulp: List plugins"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"goto",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"",
+				"A File Icon: Changelog"
+			],
+			[
+				"inte",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"gulp ",
+				"Gulp: Run last task"
+			]
+		],
+		"width": 524.0
+	},
+	"console":
+	{
+		"height": 555.0,
+		"history":
+		[
+			"app",
+			"cd ..",
+			"ls",
+			"gulp",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"echo ",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/bo/Sites/h12.test/web/app/themes/h12"
+	],
+	"file_history":
+	[
+		"/Users/bo/Sites/historie.proto/includes/timeline/parallax2.php",
+		"/Users/bo/Sites/historie.proto/assets/styles/main.scss",
+		"/Users/bo/Sites/historie.proto/assets/scripts/main.js",
+		"/Users/bo/Desktop/jan.svg",
+		"/Users/bo/Sites/historie.proto/assets/styles/_timeline.scss",
+		"/Users/bo/Sites/historie.proto/timeline.php",
+		"/Users/bo/Sites/historie.proto/includes/timeline/text.php",
+		"/Users/bo/Sites/historie.proto/includes/timeline/quote.php",
+		"/Users/bo/Sites/historie.proto/test.php",
+		"/Users/bo/Sites/historie.proto/includes/timeline/image.php",
+		"/Users/bo/Sites/historie.proto/stickytest5.php",
+		"/Users/bo/Sites/historie.proto/env.php",
+		"/Users/bo/Sites/historie.proto/user.php",
+		"/Users/bo/Sites/historie.proto/includes/header.php",
+		"/Users/bo/Sites/historie.proto/includes/section-header.php",
+		"/Users/bo/Sites/historie.proto/includes/section.php",
+		"/Users/bo/Sites/historie.proto/includes/submenu-content.php",
+		"/Users/bo/Sites/historie.proto/includes/teaser.php",
+		"/Users/bo/Sites/historie.proto/includes/theme.php",
+		"/Users/bo/Sites/historie.proto/includes/toplist.php",
+		"/Users/bo/Sites/historie.proto/includes/xteaser.php",
+		"/Users/bo/Sites/historie.proto/includes/article/anchors.php",
+		"/Users/bo/Sites/historie.proto/includes/article/anchors_ver2.php",
+		"/Users/bo/Sites/historie.proto/includes/article/chapters.php",
+		"/Users/bo/Sites/historie.proto/includes/article/factbox.php",
+		"/Users/bo/Sites/historie.proto/includes/article/gallery--fullscreen.php",
+		"/Users/bo/Sites/historie.proto/includes/article/gallery--parallax.php",
+		"/Users/bo/Sites/historie.proto/includes/article/gallery--swipe.php",
+		"/Users/bo/Sites/historie.proto/includes/article/hero--amanda.php",
+		"/Users/bo/Sites/historie.proto/includes/article/hero--default.php",
+		"/Users/bo/Sites/historie.proto/includes/article/hero--gradient.php",
+		"/Users/bo/Sites/historie.proto/includes/article/hotspot2.php",
+		"/Users/bo/Sites/historie.proto/includes/article/img.php",
+		"/Users/bo/Sites/historie.proto/includes/article/list.php",
+		"/Users/bo/Sites/historie.proto/includes/article/pager.php",
+		"/Users/bo/Sites/historie.proto/includes/article/related.php",
+		"/Users/bo/Sites/historie.proto/includes/article/teaser-ctm.php",
+		"/Users/bo/Sites/historie.proto/includes/article/x-gallery--parallax.php",
+		"/Users/bo/Sites/historie.proto/404.php",
+		"/Users/bo/Sites/historie.proto/article.php",
+		"/Users/bo/Sites/historie.proto/brain.php",
+		"/Users/bo/Sites/historie.proto/create-profile.php",
+		"/Users/bo/Sites/historie.proto/doc-buttons.php",
+		"/Users/bo/Sites/historie.proto/doc-list.php",
+		"/Users/bo/Sites/historie.proto/doc-teasers.php",
+		"/Users/bo/Sites/historie.proto/doc-themes.php",
+		"/Users/bo/Sites/historie.proto/doc.php",
+		"/Users/bo/Sites/historie.proto/fonts.php",
+		"/Users/bo/Sites/historie.proto/hotspots.php",
+		"/Users/bo/Sites/historie.proto/index.php",
+		"/Users/bo/Sites/historie.proto/login.php",
+		"/Users/bo/Sites/historie.proto/myarticles.php",
+		"/Users/bo/Sites/historie.proto/paywall-landingpage.php",
+		"/Users/bo/Sites/historie.proto/searchresult.php",
+		"/Users/bo/Sites/historie.proto/section.php",
+		"/Users/bo/Sites/historie.proto/stickytest.php",
+		"/Users/bo/Sites/historie.proto/stickytest2.php",
+		"/Users/bo/Sites/historie.proto/stickytest3.php",
+		"/Users/bo/Sites/historie.proto/stickytest4.php",
+		"/Users/bo/Sites/historie.proto/node_modules/dom-serializer/node_modules/domelementtype/index.js",
+		"/Users/bo/Sites/historie.proto/node_modules/domelementtype/index.js",
+		"/Users/bo/Sites/historie.proto/includes/timeline/parallax.php",
+		"/Users/bo/Sites/historie.proto/includes/timeline/img.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/components/_grid.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/layouts/_post.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/components/_slider.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/scripts/routes/common.js",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/partials/content-single.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/template-custom.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/partials/TwitterAPIExchange.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/partials/related-posts.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/main.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/app/setup.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/partials/head.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/layouts/_base.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/components/_forms.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/layouts/_teasers.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/partials/svg.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/node_modules/regexpp/index.js",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/layouts/_footer.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/partials/footer.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/components/_fonts.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/layouts/_hero.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/layouts/_header.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/layouts/_section.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/partials/header.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/partials/header-creative.blade.php",
+		"/Users/bo/Desktop/index.html",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/partials/post-hero.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/style.css",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/images/dot.svg",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/views/layouts/posts.blade.php",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/resources/assets/styles/_variables.scss",
+		"/Users/bo/Sites/creative.test/composer.json",
+		"/Users/bo/Desktop/b93/ny.php",
+		"/Users/bo/Sites/h12.test/web/app/themes/h12/resources/assets/styles/layouts/_footer.scss",
+		"/Users/bo/Sites/creative.test/web/app/themes/creative/.stylelintrc.js",
+		"/Users/bo/Sites/costume.test/web/app/themes/costume-business/resources/assets/styles/layouts/_article.scss",
+		"/Users/bo/Sites/costume.test/web/app/themes/costume-business/resources/assets/images/ticket.svg",
+		"/Users/bo/Desktop/f1.html",
+		"/Users/bo/Sites/jppol-composer.test/composer.json",
+		"/Users/bo/Desktop/running26/themeoptions.txt",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/swiper/components/core/core.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/swiper/components/pagination/pagination.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/scripts/main.js",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/main.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/autoload/_reset.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/views/partials/head.blade.php",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/autoload/_misc.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/app/setup.php",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/components/_wp-classes.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/views/partials/svg.blade.php",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/common/_variables.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/.stylelintrc.js",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/views/layouts/app.blade.php",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/common/_global.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/views/partials/content-page.blade.php",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/autoload/_fonts.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/autoload/_mixins.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/assets/styles/layouts/_tinymce.scss",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/views/page.blade.php",
+		"/Users/bo/Sites/marginmedia.test/web/app/themes/marginmedia/resources/views/partials/content.blade.php",
+		"/Users/bo/Sites/costume.test/web/app/themes/costume-business/composer.lock",
+		"/Users/bo/Sites/strawberry.test/.env",
+		"/Users/bo/Sites/strawberry.test/composer.json",
+		"/Users/bo/Local Sites/skakke/logs/php/php-fpm.log",
+		"/Users/bo/Local Sites/skakke/app/bedrock/.env",
+		"/Users/bo/Local Sites/skakke/logs/nginx/error.log"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 114.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 102.0
+	},
+	"output.gulp_output":
+	{
+		"height": 359.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "h12.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wha",
+				"node_modules/cssstyle/lib/properties/webkitHyphenateLimitAfter.js"
+			],
+			[
+				"teaser",
+				"resources/views/partials/teaser.blade.php"
+			],
+			[
+				"tind",
+				"node_modules/lodash/array/lastIndexOf.js"
+			],
+			[
+				"fac",
+				"node_modules/node-sass/src/sass_types/factory.cpp"
+			],
+			[
+				"bodum",
+				"bodum-section.php"
+			],
+			[
+				"elemen",
+				"assets/styles/microsites/_elements.scss"
+			],
+			[
+				"ele",
+				"assets/styles/microsites/_elements.scss"
+			],
+			[
+				"paywa",
+				"assets/styles/_paywall.scss"
+			],
+			[
+				"_bas",
+				"assets/styles/_base.scss"
+			],
+			[
+				"",
+				"assets/styles/_menu.scss"
+			],
+			[
+				"blogs",
+				"blogs-home.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"_menu",
+				"assets/styles/_menu.scss"
+			],
+			[
+				"hes",
+				"hest.php"
+			],
+			[
+				"fonte",
+				"node_modules/caniuse-lite/data/features/font-variant-east-asian.js"
+			],
+			[
+				"dr.dk",
+				"node_modules/uws/build/Release/.deps/Release/obj.target/uws/src/Socket.o.d"
+			],
+			[
+				"redd",
+				"node_modules/vinyl-fs/lib/src/getContents/readDir.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

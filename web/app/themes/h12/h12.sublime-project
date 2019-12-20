@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [
+				".cache-loader",
+				"vendor",
+			],
+		"file_exclude_patterns": [
+			"LI*",
+			"README*",
+			"yarn.lock",
+			"CODE_OF*",
+			"CHANGEL*"
+		]
+			
+		}
+	]
+}
