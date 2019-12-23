@@ -6,6 +6,7 @@ web/app/upgrade
 web/app/uploads/*
 web/app/webp-express/*
 !web/app/uploads/.gitkeep
+web/app/themes/.htaccess
 
 # WordPress
 web/wp
