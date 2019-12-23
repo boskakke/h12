@@ -177,9 +177,9 @@ add_filter( 'excerpt_length', __NAMESPACE__ . '\\wpdocs_custom_excerpt_length', 
 
 // Upload path for Webp plugin
 add_filter('webpc_uploads_path', function($path) {
-  return 'app/uploads';
+  return '/app/uploads';
 });
 
 add_filter('webpc_uploads_webp', function($path) {
-  return 'app/uploads/uploads-webpc';
+  return '/app/uploads/uploads-webpc';
 });
