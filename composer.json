@@ -52,13 +52,13 @@
     "oscarotero/env": "^1.1.0",
     "roots/soil": "^3.8",
     "roots/wordpress": "^5.2.3",
-    "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0",
+    "roots/wp-config": "^1.0.0",
+    "roots/wp-password-bcrypt": "^1.0.0",
     "vlucas/phpdotenv": "^3.4.0",
     "wpackagist-plugin/bunnycdn": "1.0.6",
-    "wpackagist-plugin/insta-gallery": "2.5.7",
-    "wpackagist-plugin/regenerate-thumbnails": "3.1.1",
-    "wpackagist-plugin/webp-converter-for-media": "^1.0"
+    "wpackagist-plugin/insta-gallery": "^2.5.7",
+    "wpackagist-plugin/regenerate-thumbnails": "^3.1.1",
+    "wpackagist-plugin/webp-express":"^0.17.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",

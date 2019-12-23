@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81800eff667abb46e79557d5c912cddd",
+    "content-hash": "d26dd975b7caf8d8d5b9ca689e26738e",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -671,15 +671,15 @@
         },
         {
             "name": "wpackagist-plugin/insta-gallery",
-            "version": "2.5.7",
+            "version": "2.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/insta-gallery/",
-                "reference": "tags/2.5.7"
+                "reference": "tags/2.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/insta-gallery.2.5.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/insta-gallery.2.6.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -691,15 +691,15 @@
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
-                "reference": "tags/3.1.1"
+                "reference": "tags/3.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.3.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.3.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -710,16 +710,16 @@
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
-            "name": "wpackagist-plugin/webp-converter-for-media",
-            "version": "1.0.8",
+            "name": "wpackagist-plugin/webp-express",
+            "version": "0.17.2",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/webp-converter-for-media/",
-                "reference": "trunk"
+                "url": "https://plugins.svn.wordpress.org/webp-express/",
+                "reference": "tags/0.17.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/webp-converter-for-media.zip?timestamp=1576796794",
+                "url": "https://downloads.wordpress.org/plugin/webp-express.0.17.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -727,7 +727,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/webp-converter-for-media/"
+            "homepage": "https://wordpress.org/plugins/webp-express/"
         }
     ],
     "packages-dev": [
