@@ -175,4 +175,7 @@ function wpdocs_custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', __NAMESPACE__ . '\\wpdocs_custom_excerpt_length', 999 );
 
-
+// Upload path for Webp plugin
+add_filter('webpc_uploads_webp', function($path) {
+  return 'app/uploads';
+});
