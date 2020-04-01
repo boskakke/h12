@@ -7,11 +7,11 @@
 @endphp
 <header class="header">
   <div class="container">
-    
+
     <div class="site-header">
       @if( !is_front_page()  )
       <div class="site-header__logo">
-        <a class="header__logo" href="{{ home_url('/') }}" title="{{ get_bloginfo('name', 'display') }}">
+        <a class="header__logo" onClick="_gaq.push(['_trackEvent', 'logo', ‘click');"  href="{{ home_url('/') }}" title="{{ get_bloginfo('name', 'display') }}">
             <img src="@asset('images/h12.svg')" alt="{{ get_bloginfo('name', 'display') }}">
         </a>
       </div>
@@ -25,7 +25,7 @@
             <span></span>
         </div>
       </div>
-      
+
       <nav class="menu-overlay">
         <a class="header__logo" href="{{ home_url('/') }}" title="{{ get_bloginfo('name', 'display') }}">
         <img src="@asset('images/h12.svg')" alt="{{ get_bloginfo('name', 'display') }}" class="menu-overlay__logo">
@@ -36,8 +36,8 @@
       </nav>
 
     </div>
-    
-    
+
+
   </div>
   <a href="#" class="menu-backdrop js-toggle-nav" aria-label="Vis menuen"></a>
 </header>
