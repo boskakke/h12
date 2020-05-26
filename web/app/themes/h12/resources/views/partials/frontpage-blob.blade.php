@@ -38,10 +38,10 @@
 				@endif
 
 
-			@if (get_field('sponsor_logo', 'options'))
+			@if (get_field('sponsor_logo'))
 			<div class="blob__center">
 				<figure class="blob__sponsor">
-					<img src="{{the_field('sponsor_logo', 'options')}}" alt="">
+					<img src="{{the_field('sponsor_logo')}}" alt="">
 				</figure>
 			</div>
 			@endif
