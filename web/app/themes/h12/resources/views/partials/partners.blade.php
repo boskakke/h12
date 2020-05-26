@@ -23,7 +23,7 @@
 			@if ($link)
 				<a href="{{ $link}}" title="{{ $name ?? '' }}" rel="noopener" target="_blank">
 			@endif
-				 @php
+				 {{-- @php
 				 $img_attributes = wp_get_attachment_image_src( $logo, $size, false);
 					if($img_attributes[1] !== 1) {
 						$args = ["class" => "partners__logo", "alt" => $name, "loading" => "lazy"];
@@ -33,7 +33,8 @@
 						];
 					}
 				 echo wp_get_attachment_image( $logo, $size, false, $args);
-				 @endphp
+				 @endphp --}}
+				 <img src="{{$logo}}" alt="{{$name}}"
 			@if ($link)
 			</a>
 			@endif
