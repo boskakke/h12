@@ -72,7 +72,7 @@
                         "class": "",
                         "id": ""
                     },
-                    "return_format": "id",
+                    "return_format": "url",
                     "preview_size": "medium",
                     "library": "all",
                     "min_width": "",
@@ -119,6 +119,44 @@
                     "placeholder": ""
                 }
             ]
+        },
+        {
+            "key": "field_5eccde81dcf7a",
+            "label": "Test felt",
+            "name": "skakke_test_felt",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5eccde82180b2",
+            "label": "Test felt",
+            "name": "skakke_test_felt",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
@@ -138,5 +176,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1576849056
+    "modified": 1590484622
 }
